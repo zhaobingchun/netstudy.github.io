@@ -1,0 +1,23 @@
+# netstudy.github.io
+小不点博客
+
+* C++Primer学习
+** text_quary的学习
+- 这个实例主要讲解了在一段文字中查找出特定的字符,而且可以通过& | ~字符组合查找
+- 例如
+- Alice Emma has long flowing red hair.
+- Her Daddy says when the wind blows
+- through her hair, it looks almost alive,
+- like a fairly bird and flight.
+- A beautiful fairly bird, he tells her,
+- magical but untamed.
+- "Daddy, shush, there is no such thing,"
+- she tells him, at the same time waiting
+- him to tell her more.
+- Shyly, she asks "I mean, Daddy, is there."
+- 系统应该支持:
+- 1. 查找单个单词的查询. 按升序显示所有包含单词的行
+- 2. "非"查询, 使用~操作符. 显示所有不匹配的行
+- 3. "或"查询, 使用|操作符. 显示与两个条件中任意一个匹配的所有行
+- 4. "与"查询, 使用&操作符, 显示与两个条件都匹配的所有行
+- 而且可以组合这些元素
